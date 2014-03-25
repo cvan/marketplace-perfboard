@@ -21,6 +21,7 @@ module.exports = function (grunt) {
         options: {
           indexPath: './' + server + '/',
           options: {
+            'phone': true,
             'post-load-delay': 5
           },
           url: serverURLs[server]
