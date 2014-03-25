@@ -3,6 +3,7 @@ module.exports = function (grunt) {
   var server = grunt.option('server');
 
   var serverURLs = {
+    example: 'http://www.mysnuggiestore.com/',
     dev: 'https://marketplace-dev.allizom.org/',
     prod: 'https://marketplace.firefox.com/',
     stage: 'https://marketplace.allizom.org/'

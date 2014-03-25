@@ -27,3 +27,7 @@ For [stage](https://marketplace.allizom.org/):
 For [prod](https://marketplace.firefox.com/):
 
     grunt --server=prod
+
+To generate all:
+
+    grunt --server=dev && grunt --server=stage && grunt --server=prod && grunt --server=example
